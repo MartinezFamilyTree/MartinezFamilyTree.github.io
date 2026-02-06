@@ -23,8 +23,10 @@
     min-width: 150px;
     height: 200px;
     color: transparent;
+    border: 0px;
     font-size: 25px;
     background-image: url('pictures/Question-Mark.png');
+    background-color: transparent;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
