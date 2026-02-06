@@ -34,14 +34,12 @@
     justify-content: center;
 }
 
-.person:hover {
-    color: white;
+body:not(.is-mobile) .person:hover {
     background-color: rgba(0, 0, 0, 0.3);
+    color: white;
 }
 
-@media (max-width: 768px) {
-    .person {
-        color: white;
-        background-color: rgba(0, 0, 0, 0.3);
-    }
+body.is-mobile .person {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
 }
