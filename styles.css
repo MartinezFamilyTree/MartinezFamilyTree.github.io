@@ -22,7 +22,8 @@
     max-width: 200px;
     min-width: 150px;
     height: 200px;
-    background-color: rgba(0, 0, 0, 0.3);
+    color: transparent;
+    font-size: 25px;
     background-image: url('pictures/Question-Mark.png');
     background-size: cover;
     background-position: center;
@@ -31,4 +32,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.person:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
 }
